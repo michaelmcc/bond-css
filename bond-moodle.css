@@ -162,3 +162,7 @@ a {color: #194C6C;}
 /* hide moodle logo */
 .sitelink {display: none;}
 
+/* move login to top left */
+.logininfo {position: absolute; top: 60px;}
+
+
