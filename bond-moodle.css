@@ -155,6 +155,6 @@ a {color: #194C6C;}
 }
 
 
-ul: nth-child(2) {
+li: nth-child(2) {
 background-color: red !important;
 }
