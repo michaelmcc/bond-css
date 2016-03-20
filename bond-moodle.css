@@ -163,6 +163,18 @@ a {color: #194C6C;}
 .sitelink {display: none;}
 
 /* move login to top left */
-.logininfo {position: absolute; top: 60px;}
+.logininfo {
+  visibility: hidden; 
+  }
+.logininfo a {
+  visibility: visible; 
+  }
 
+.logininfo a:first-child {
+  }
+.logininfo a:first-child::after {
+  content: "";
+  }
+
+.logininfo {position: absolute; top: 60px; left: -85px;}
 
