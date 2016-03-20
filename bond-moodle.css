@@ -148,3 +148,8 @@ a {color: #194C6C;}
     display: none !important;
 }
 
+.dir-ltr .usermenu {
+    float: right !important;
+    position: absolute !important;
+    top: 43px !important;
+}
