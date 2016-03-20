@@ -154,7 +154,9 @@ a {color: #194C6C;}
     top: 50px !important;
 }
 
-
-li: nth-child(2) {
-background-color: red !important;
+.block_tree li:nth-child(2) {
+    display: none !important;
 }
+
+
+
