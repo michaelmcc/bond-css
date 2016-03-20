@@ -172,8 +172,13 @@ a {color: #194C6C;}
 
 .logininfo a:first-child {
   }
+
 .logininfo a:first-child::after {
-  content: "";
+  content:" |";
+  }
+
+.logininfo a:first-child::after {
+  padding: 0 0 0 5px;
   }
 
 .logininfo {position: absolute; top: 60px; left: -85px;}
